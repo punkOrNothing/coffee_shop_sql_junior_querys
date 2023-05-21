@@ -8,3 +8,7 @@ where employee_id = 9;
 update  shops
 set city_id = 1
 where coffee_shop_id = 1;
+
+update  shops
+set city_id = 2
+where coffee_shop_id = 1;
