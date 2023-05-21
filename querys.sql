@@ -27,6 +27,8 @@ or coffee_type  = 'Brasil';
 
 select * from employees where not email is null; 
 
+select * from  employees where salary < 2000;
+
 
 
 
