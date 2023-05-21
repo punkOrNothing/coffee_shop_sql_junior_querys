@@ -20,6 +20,9 @@ select * from employees where salary < 2000 or coffee_shop_id = 1;
 select * from employees where salary < 2000 and coffee_shop_id = 1
 and gender = "F";
 
+select * from employees where salary < 2000 and coffee_shop_id = 2
+and gender = "M";
+
 select * from supliers where not suplier_name = "BIg ben";
 
 select * from supliers where coffee_type in ('Arabica');
