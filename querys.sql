@@ -13,6 +13,8 @@ select * from  employees where salary > 2000;
 
 select * from employees where salary > 2000 and coffee_shop_id = 1;
 
+select * from employees where salary > 2000 and coffee_shop_id = 2;
+
 select * from employees where salary < 2000 or coffee_shop_id = 1;
 
 select * from employees where salary < 2000 and coffee_shop_id = 1
